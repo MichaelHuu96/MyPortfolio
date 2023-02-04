@@ -479,7 +479,7 @@ a:active {
 .portfolio__item:focus .portfolio__img {
   z-index: 1;
   opacity: 0.9;
-  transform: translateY(-10rem) scaleX(1.6) scaleY(1.6);
+  transform: translateY(-8rem) scaleX(1.6) scaleY(1.6);
 
   visibility: visible;
 }
