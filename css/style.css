@@ -29,7 +29,7 @@
   background-blend-mode: multiply, multiply;
   --clr-accent: #8ec5fc;
   --clr-accent2: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
-  --clr-accen3:#494b50;
+  --clr-accen3: #494b50;
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
   --fs-h3: 1.25rem;
@@ -311,6 +311,20 @@ header {
     left: -1.5em;
     width: calc(100% + 1.5em);
   }
+  .shortcuts {
+    text-align: right;
+    width: fit-content;
+    position: absolute;
+    right: 2rem;
+    bottom: 3rem;
+  }
+  .shortcut_icon {
+    font-size: 2rem;
+    color: #111;
+  }
+  .shortcut_icon:hover {
+    color: #8ec5fc;
+  }
 }
 
 /*  My services section  */
@@ -406,7 +420,7 @@ header {
 .portfolio__item__text {
   font-size: var(--fs-h3);
   font-family: var(--ff-primary);
-  font-size: var();
+  font-weight: 100;
   /* background of the text*/
   color: #c6c6c6;
   top: 100%;
