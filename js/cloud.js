@@ -97,8 +97,12 @@ function clouddotnet(){
     document.querySelector('.cloud-text').innerHTML = "An open source framework, I use to use this framewrok every thime i programmed in C#" ;
     rating(4);
 }
-
-function cloudBootstrao(){
+function cloudjquery(){
+    document.querySelector('.cloud-header').innerHTML = "Jquery" ;
+    document.querySelector('.cloud-text').innerHTML = "My lastesy new addition to my skill set, still learning about but so far it seems easy to use. Look I even made this HTML tag cloud on the right using Jquery" ;
+    rating(3);
+}
+function cloudbootsrap(){
     document.querySelector('.cloud-header').innerHTML = "Bootstrap" ;
     document.querySelector('.cloud-text').innerHTML = "Bootstrap are cheatcode for webdevelopers." ;
     rating(5);
@@ -109,7 +113,7 @@ function cloudnodejs(){
     document.querySelector('.cloud-text').innerHTML = "WIP" ;
     rating(3);
 }
-function github(){
+function cloudgithub(){
     document.querySelector('.cloud-header').innerHTML = "GitHub" ;
     document.querySelector('.cloud-text').innerHTML = "Always remember to push before you pull! The first thing ive learned, and its stuck to me. Ive used github ever since my first project so its safe to say I know how to use :P" ;
     rating(4);

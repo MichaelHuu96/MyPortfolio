@@ -418,14 +418,86 @@ header {
     z-index: 2;
   }
 }
+@keyframes over {
+  0% {
+    opacity: 0;
+    margin-left: -99em;
+  }
+  50% {
+    opacity: 0;
+    margin-left: 15px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 15px;
+  }
+}
+/* Sidebar */
+#sidebar {
+  position: fixed;
+  z-index: 10;
+  left: -30px;
+  top: 0;
+  width: auto;
+  height: 350px;
+  background: var(--clr-accen3);
+  margin-top: 25vh; /* Negative half of height. */
+  border-radius: 10px;
+  padding: 0.1%;
+  opacity: 0.3;
+}
 
+#sidebar #nav-items {
+  width: 100%;
+}
+
+#sidebar #nav-items a {
+  color: black;
+  display: flex;
+  padding: 20px;
+  text-decoration: none;
+  opacity: 1;
+}
+
+#sidebar #nav-items a span {
+  display: inline-block;
+  margin-left: -999rem;
+}
+
+#sidebar:hover a span {
+  text-decoration: none;
+  font-family: var(--ff-primary);
+  animation-name: over;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+#sidebar:hover {
+  opacity: 0.7 !important;
+  background-color: #ceb3e6;
+}
+
+#sidebar #nav-items a:active,
+#sidebar #nav-items a:hover {
+  text-decoration: none;
+  color: white;
+  font-family: var(--ff-primary);
+  font-weight: 600;
+  background-color: #494b50;
+}
+
+#sidebar #nav-items a:active {
+}
+
+.menu-button {
+  font-family: var(--ff-primary);
+}
 /* My Work */
 .portfolio_item_carrier {
   filter: grayscale(50%) hue-rotate(990deg);
 }
 
 .portfolio_item_tindog {
-  filter: grayscale(60%);
+  filter: grayscale(70%);
 }
 .portfolio__item__text {
   font-size: var(--fs-h3);
@@ -633,10 +705,4 @@ a:active {
   max-height: 595px;
   width: auto;
   height: auto;
-}
-.center{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
