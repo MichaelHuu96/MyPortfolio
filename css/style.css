@@ -473,7 +473,7 @@ header {
 }
 #sidebar:hover {
   opacity: 0.7 !important;
-  background-color: #ceb3e6;
+  background-color: #a5a4a7;
 }
 
 #sidebar #nav-items a:active,
@@ -637,9 +637,8 @@ a:active {
 }
 .cloud-tag-description {
   height: 100%;
-  width: 100%;
+  min-width: none;
   overflow: auto;
-
   background-color: rgb(228, 228, 228);
   justify-self: center;
   padding: 30px;

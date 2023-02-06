@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Michael Portfolio Website</title>
+  <link rel="icon" href="../../img/favicon.ico" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="../../index.html"> <img src="../../img/devMichael.png" alt="" /></a>
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="index.html" class="nav__link">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="index.html#services" class="nav__link">My Services</a>
+        </li>
+        <li class="nav__item">
+          <a href="index.html#about" class="nav__link">About me</a>
+        </li>
+        <li class="nav__item">
+          <a href="index.html#work" class="nav__link">My Work</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <h1 class="section__title section__title--intro">
+      <strong>Vehicle Data
+        Monitoring<br> and Intelligent Speed Assistance</strong>
+    </h1>
+
+
+    <p class="section__subtitle section__subtitle--intro">4th Semester Project</p>
+    <img src="asset/logo.png" alt="" class="intro__img" />
+    <div class="shortcuts">
+      <a href="https://samenwerkenmetwindesheim.nl/hbo-ict/wp-content/uploads/2020/01/Winnovation-wintereditie-2020.pdf"
+        target="
+        _blank"> <span class="iconify shortcut_icon" data-icon="mdi:file-document"></span> </a>
+      <a href="https://www.ourway-app.nl/" target="_blank"> <span class="iconify shortcut_icon"
+          data-icon="gg:website"></span></a>
+      <a href="  https://play.google.com/store/apps/details?id=com.companyname.ourway" target="_blank"> <span
+          class="iconify shortcut_icon" data-icon="mdi:google-play"></span></a>
+    </div>
+  </section>
+
+
+
+
+
+  <div class="portfolio-item-individual">
+    <div class="portfolio">
+      <div>
+        <p>
+          The objective this project is to develop a web based user interface to an
+          industrial process. The development of the project has happened alongside other courses which contributes to
+          the crucial expertise and finesse for this project. The purpose of the system is to collect vehicle data, so
+          the system use the velocity of the vehicle, location of the vehicle, and the speed limit of the road, to
+          enhance the road safety, by alerting the user of the system when they are speeding.
+          The system is built with a software solution combined with pieces of hardware. The main hardware is an Arduino
+          that contains a GPS component that calculates the GPS coordinates and reads the vehicle data for processing at
+          the backend server. The backend saves the data in a database for historical reasons and sends it further to
+          the website for clients to view. The user interface must be able to update the process of the industrial
+          process and allows the user to interact with it to change relevant parameters or control the process. The
+          features that clients of the system can make use of are registering, login, managing vehicles, view live and
+          archived data, perform administrative tasks, and most importantly use Intelligent Speed Assistance (ISA).
+          Furthermore, the project course utilises Scrum as a foundation for an agile soft ware development that is
+          split into multiple sprints. The development began with finding the problem domain, requirements and creating
+          use-cases for the system to define the scope that will later lead to the design phase.
+          It can be concluded that it is feasible to implement such a system, and that the group has gained new
+          knowledge of dealing with embedded hardware, advanced software architecture, web development, and how they all
+          can work together using web based APIs and message queuing technologies.
+          Preface
+
+        </p>
+      </div>
+      <div>
+        <img src="asset/Arduinoboard.jpg" alt="" class="portfolio_items_images" />
+        <img src="asset/desktop-isa.png" alt="" class="portfolio_items_images">
+        <img src="asset/desktop-user.png" alt="" class="portfolio_items_images">
+
+      </div>
+    </div>
+    <video width="100%wh" controls>
+      <source src="asset/ny video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <!-- replace with your own email address -->
+    <a href="mailto:Michaelhuu1809@gmail.com class=" footer__link>Michaelhuu1809@gmail.com</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://codepen.io">
+          <i class="fab fa-codepen"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="http://dribbble.com">
+          <i class="fab fa-dribbble"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://twitter.com">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>

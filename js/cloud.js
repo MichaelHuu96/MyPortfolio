@@ -23,7 +23,8 @@ $(document).ready(function() {
   });
 
   function cloudcat(){
-      document.querySelector('.cloud-text').innerHTML = "heyy look its a cat";
+    document.querySelector('.cloud-header').innerHTML = "Cat" ;
+      document.querySelector('.cloud-text').innerHTML = "heyy look its a cat, I dont own one but if you hire me i might adopt one";
       rating(5);
   }
 
@@ -129,6 +130,11 @@ function clouddan(){
     document.querySelector('.cloud-header').innerHTML = "Dansk" ;
     document.querySelector('.cloud-text').innerHTML = "Født og opvokset i Danmark, så kan også flydende dansk" ;
     rating(5);
+}
+function cloudjs(){
+    document.querySelector('.cloud-header').innerHTML = "JavaScript" ;
+    document.querySelector('.cloud-text').innerHTML = "Key to function on the website, this cloud on the right and the ability to click on each logo to update this text is done using Javascript" ;
+    rating(4);
 }
 
 
