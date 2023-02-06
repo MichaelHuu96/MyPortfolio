@@ -54,7 +54,7 @@ function cloudpython(){
     document.querySelector('.cloud-text').innerHTML = "Python is third language I learned and is one im self taught I have couple of project I've made in this language for example the latest group project 'carrier-based rail system' in model based engeneering" ;
     rating(4);
 
-    document.querySelector('#cloud-atag').setAttribute('href',"My_Portfolio96/Portfolio_items/1-Carrier_Based/Carrier-based Rail System.html");
+    document.querySelector('#cloud-atag').setAttribute('href',"Portfolio_items/1-Carrier_Based/Carrier-based Rail System.html");
     document.querySelector('#cloud-atag').innerText = "Click here to see the project";
 }
 function cloudcsharp(){
@@ -62,7 +62,7 @@ function cloudcsharp(){
     document.querySelector('.cloud-text').innerHTML = "The 2nd language I learned and the first I was self taught. It use to my preffered language during my bacholor and had a lot of project made in this language" ;
     rating(4);
 
-    document.querySelector('#cloud-atag').setAttribute('href',"My_Portfolio96/Portfolio_Items/5-Ourway/Ourway.html");
+    document.querySelector('#cloud-atag').setAttribute('href',"Portfolio_Items/5-Ourway/Ourway.html");
     document.querySelector('#cloud-atag').innerText = "Click here to see the project";
     
 }function mysql(){
@@ -70,7 +70,7 @@ function cloudcsharp(){
     document.querySelector('.cloud-text').innerHTML = "A database management system that we got taught in bachelor, I've used it in my bacholor project and during my internship at Kepasa" ;
     rating(3);
 
-    document.querySelector('#cloud-atag').setAttribute('href',"My_Portfolio96/Portfolio_items/2-Kepasa/Kepasa.html");
+    document.querySelector('#cloud-atag').setAttribute('href',"Portfolio_items/2-Kepasa/Kepasa.html");
     document.querySelector('#cloud-atag').innerText = "Click here to see the project";
 }
 function postgre(){
@@ -88,7 +88,7 @@ function cloudangular(){
     document.querySelector('.cloud-text').innerHTML = "used it in my 4th semester of my bacholor to make a website to display data on the project 'Vehicle data monitoring and intelligent speed assistence'" ;
     rating(3);
 
-    document.querySelector('#cloud-atag').setAttribute('href',"My_Portfolio96/Portfolio_Items/4-4th-Semster-project/Vehicle.html");
+    document.querySelector('#cloud-atag').setAttribute('href',"Portfolio_Items/4-4th-Semster-project/Vehicle.html");
     document.querySelector('#cloud-atag').innerText = "Click here to see the project";
 }
 function cloudxamarin(){
@@ -96,7 +96,7 @@ function cloudxamarin(){
     document.querySelector('.cloud-text').innerHTML = "An open source mobile app platform for building native and high-performance iOS, Android. I've used this during my studyabroad for the for my project Ourway. Ourway is an carpooling app ment to help elderly people getting around in small villages. " ;
     rating(3)
 
-    document.querySelector('#cloud-atag').setAttribute('href',"My_Portfolio96/Portfolio_Items/5-Ourway/Ourway.html");
+    document.querySelector('#cloud-atag').setAttribute('href',"Portfolio_Items/5-Ourway/Ourway.html");
     document.querySelector('#cloud-atag').innerText = "Click here to see the project";
 }
 
@@ -122,7 +122,7 @@ function cloudblazor(){
     document.querySelector('.cloud-header').innerHTML = "Blazor" ;
     document.querySelector('.cloud-text').innerHTML = "I worked with Blazor during my internship at kepasa, I used it to make a visualization of data stored from database" ;
     rating(3);
-    document.querySelector('#cloud-atag').setAttribute('href',"My_Portfolio96/Portfolio_items/2-Kepasa/Kepasa.html");
+    document.querySelector('#cloud-atag').setAttribute('href',"Portfolio_items/2-Kepasa/Kepasa.html");
     document.querySelector('#cloud-atag').innerText = "Click here to see the project";
 }
 
@@ -130,7 +130,7 @@ function clouddotnet(){
     document.querySelector('.cloud-header').innerHTML = "DotNet" ;
     document.querySelector('.cloud-text').innerHTML = "An open source framework, I use to use this framewrok every thime i programmed in C#. It had been used to create an userinterface during my internship at Kepasa" ;
     rating(4);
-    document.querySelector('#cloud-atag').setAttribute('href',"My_Portfolio96/Portfolio_items/2-Kepasa/Kepasa.html");
+    document.querySelector('#cloud-atag').setAttribute('href',"Portfolio_items/2-Kepasa/Kepasa.html");
     document.querySelector('#cloud-atag').innerText = "Click here to see the project";
 }
 function cloudjquery(){
