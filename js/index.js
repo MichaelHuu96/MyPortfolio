@@ -20,3 +20,4 @@ navLinks.forEach(link => {
   image.addEventListener("mouseout", function() {
     image.style.zIndex = 0;
   });
+
