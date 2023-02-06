@@ -637,7 +637,7 @@ a:active {
 }
 .cloud-tag-description {
   height: 100%;
-  min-width: none;
+  width: 100%;
   overflow: auto;
   background-color: rgb(228, 228, 228);
   justify-self: center;
