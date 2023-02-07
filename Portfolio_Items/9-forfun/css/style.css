@@ -1,0 +1,31 @@
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: black;
+  margin: 0rem;
+}
+
+.navigation-buttons {
+  width: 200px;
+  position: fixed;
+  top: 50vh;
+  left: 2%;
+  z-index: 2;
+}
+
+.navigation-button {
+  font-size: 2.5vmin;
+  border: 0.4vmin solid white;
+  border-radius: 100%;
+  color: white;
+  background-color: transparent;
+  height: 7vmin;
+  width: 7vmin;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
