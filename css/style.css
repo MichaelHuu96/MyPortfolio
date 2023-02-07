@@ -705,3 +705,13 @@ a:active {
   width: auto;
   height: auto;
 }
+
+.fit-content {
+  height: 1000px;
+  width: auto;
+}
+.figma_mockups {
+  width: 195%;
+  height: 90%;
+  object-fit: contain;
+}
