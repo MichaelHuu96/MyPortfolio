@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@fightmegg/riot-api": "^0.0.8"
+  }
+}

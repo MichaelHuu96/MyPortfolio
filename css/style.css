@@ -120,6 +120,7 @@ h2 {
 }
 h3 {
   font-size: var(--fs-h3);
+  line-height: 2.8;
 }
 
 .section__title {
